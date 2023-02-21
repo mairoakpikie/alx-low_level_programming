@@ -8,7 +8,7 @@ int main(void)
 char lett[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for
-((i = 0 && i < 26) i++);
+((i = 0 && i < 26); i++;);
 {
 putchar(lett[i]);
 }
