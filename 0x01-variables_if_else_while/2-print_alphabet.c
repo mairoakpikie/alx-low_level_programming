@@ -9,7 +9,7 @@ char lett[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for
 ((i = 0 && i < 26);
-i++);
+i++;)
 {
 putchar(lett[i]);
 }
