@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-char lett[25] = "abcdefghijklmnopqrstuvwxyz";
+char lett[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for
-((i = 0 && i < 25);
+((i = 0 && i < 26);
 i++;)
 {
 putchar(lett[i]);
