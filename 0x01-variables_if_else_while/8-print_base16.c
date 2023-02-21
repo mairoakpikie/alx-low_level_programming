@@ -9,8 +9,8 @@ char lett[6] = "abcdef";
 int i;
 int j;
 for
-((i = 0 i < 6);
-(j = 0 j < 10);
+((i = 1 i < 7);
+(j = 1 j < 11);
 i++; j++))
 {
 putchar("%d", j);
